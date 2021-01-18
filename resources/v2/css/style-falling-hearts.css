@@ -745,7 +745,6 @@ font-family: 'Sacramento', cursive;
     display: block;
     background: url(./../../../resources/v2/img/map.png);
     height: 100%;
-    filter: blur(2px);
 }
 
 .video-div video {
