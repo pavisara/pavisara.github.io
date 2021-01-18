@@ -739,13 +739,28 @@ font-family: 'Sacramento', cursive;
 }
 
 .direction-btn {
-	background: cornflowerblue;
-    border-radius: 10px;
+	border-radius: 10px;
     color: #dee2e6 !important;
     width: 100%;
     display: block;
+    background: url(./../../../resources/v2/img/map.png);
+    height: 100%;
+    filter: blur(2px);
 }
 
 .video-div video {
 	width: 100%;
+}
+
+.direction-btn~img{
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+}
+
+.google_map img {
+	position: absolute;
+    left: calc(50% - 248px);
+    z-index: 10000000000000;
+    height: 500px;
 }
